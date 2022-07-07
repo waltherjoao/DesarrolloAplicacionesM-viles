@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mi Casa App</string>
+    <string name="la_seleccione_metodo_auth">Favor seleccionar un método de autenticación</string>
+    <string name="salir_google">Salir de Google</string>
+
+    <string name="facebook_app_id">5097707780337931</string>
+    <string name="fb_login_protocol_scheme">fb5097707780337931</string>
+    <string name="facebook_client_token">60d72e17f88eb3276b3d0f9356b409a9</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_venta">Venta de Vivienda</string>
+    <string name="menu_alquiler">Alquiler de vivienda</string>
+    <string name="menu_mapas">Ubicación</string>
+    <string name="base_url">https://run.mocky.io/v3/</string>
+
+
+</resources>

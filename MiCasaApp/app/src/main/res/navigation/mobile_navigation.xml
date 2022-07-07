@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_venta">
+
+    <fragment
+        android:id="@+id/nav_venta"
+        android:name="ec.com.micasaapp.ui.venta.VentaFragment"
+        android:label="@string/menu_venta"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_alquiler"
+        android:name="ec.com.micasaapp.ui.alquiler.AlquierFragment"
+        android:label="@string/menu_alquiler"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_mapas"
+        android:name="ec.com.micasaapp.ui.ubicacion.UbicacionFragment"
+        android:label="@string/menu_mapas"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
